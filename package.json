@@ -1,14 +1,22 @@
 {
-    "name": "typo3-pack",
+    "name": "dev-pack",
     "displayName": "TYPO3 Extension Pack",
     "description": "Everything you need for TYPO3 development",
     "version": "0.0.1",
-    "publisher": "gilbertsoft",
+    "publisher": "typo3",
     "engines": {
         "vscode": "^1.23.0"
     },
     "categories": [
         "Extension Packs"
+    ],
+    "keywords": [
+        "typo3",
+        "typoscript",
+        "php",
+        "git",
+        "dotenv",
+        "yaml"
     ],
     "icon": "media/icon.jpg",
     "homepage": "https://github.com/gilbertsoft/vscode-typo3-pack",
@@ -21,19 +29,16 @@
       "url": "https://github.com/gilbertsoft/vscode-typo3-pack.git"
     },
     "extensionDependencies": [
-      "editorconfig.editorconfig",
       "eamodio.gitlens",
-      "jakebathman.mysql-syntax",
-      "felixfbecker.php-pack",
-      "felixfbecker.php-intellisense",
-      "felixfbecker.php-debug",
-      "phproberto.vscode-php-getters-setters",
-      "shinnn.stylelint",
-      "benjaminkott.typo3-typoscript",
-      "robertohuertasm.vscode-icons",
-      "redhat.vscode-yaml",
-      "ralffreit.typo3snippets",
+      "editorconfig.editorconfig",
       "febley.typo3-fluid-snippets",
-      "febley.typo3-vhs-snippets"
+      "felixfbecker.php-pack",
+      "jakebathman.mysql-syntax",
+      "mikestead.dotenv",
+      "phproberto.vscode-php-getters-setters",
+      "ralffreit.typo3snippets",
+      "redhat.vscode-yaml",
+      "shinnn.stylelint",
+      "typo3.typoscript"
     ]
 }
